@@ -1,0 +1,115 @@
+.wrapper {
+    width: 340px;
+}
+
+body.grey {
+    background-color: #eeefef!important;
+    outline: 0;
+    border: 0px;
+}
+
+.header .col.header-icon {
+    padding-left: 0px;
+}
+
+.header .col.header-icon .card {
+    background-color: #fdba00;
+    width: 80px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-top: 22px;
+
+}
+.header .col.header-icon .card .card-content {
+    height: 75px;
+    padding: 14px;
+}
+
+.header .col.header-icon .card .card-content img {
+    width:50px;
+}
+
+.product-name {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.header .col.product {
+    width: 169px;
+    padding: 0px;
+    margin-top: 12px;
+    padding-top: 7px;
+}
+
+.color-purple {
+    color: #1e1e65!important;
+}
+
+.bg-purple {
+    background-color: #1e1e65!important;
+    color: #fdba00;
+}
+
+
+
+.color-yellow {
+    color: #ffd665;
+    background-color: transparent!important;
+    font-weight: 500;
+}
+
+.yellowish-btn {
+    background-color: #fdba00;
+    color: #1e1e65;
+}
+
+.yellowish-btn:hover {
+    background-color: #ffd665;
+}
+.yellowish-btn:focus {
+    background-color: #ffd665;
+}
+.yellowish-btn-block {
+    width: 100%;
+}
+
+.btn-sm {
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn.rounded {
+    border-radius: 50%;
+    
+}
+.footer {
+    padding: 5px;
+}
+
+.footer .card{
+    margin: 0px;
+}
+
+.footer .card-content {
+    padding: 5px;
+}
+
+.extension-control {
+    border: 1px solid #1e1e65!important;
+    border-radius: 15px!important;
+    width: 121px!important;
+    height: 27px!important;
+    font-size: 12px!important;
+    padding: 0 8px!important;
+    font-weight: 500;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.mr-1 {
+    margin-right: 10px!important;
+}
