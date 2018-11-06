@@ -14,32 +14,43 @@ body.grey {
 
 .header .col.header-icon .card {
     background-color: #fdba00;
-    width: 80px;
+    width: 90px;
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
-    margin-top: 22px;
+    margin-top: 35px;
 
 }
 .header .col.header-icon .card .card-content {
-    height: 75px;
-    padding: 14px;
+    height: 85px;
+    padding: 16px;
+}
+
+.results-text {
+   color:purple;
+   font-weight: 500;
+   font-size: 14px;
 }
 
 .header .col.header-icon .card .card-content img {
-    width:50px;
+    width:60px;
 }
 
 .product-name {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 17px;
+    margin-bottom: 0px;
 }
 
 
 .header .col.product {
-    width: 169px;
+    width: 239px;
     padding: 0px;
-    margin-top: 12px;
+    margin-top: 15px;
     padding-top: 7px;
+}
+
+p.description {
+    font-size: 13px;
 }
 
 .color-purple {
@@ -51,6 +62,9 @@ body.grey {
     color: #fdba00;
 }
 
+.header .row {
+    margin-bottom: 10px;
+}
 
 
 .color-yellow {
@@ -90,6 +104,20 @@ body.grey {
 
 .footer .card{
     margin: 0px;
+}
+
+.status {
+    margin: 0px!important;
+    vertical-align: middle;
+}
+
+.main table.products_list tr {
+    border: 0px;
+}
+
+.main table.products_list td {
+    padding: 0px 3px;
+    font-size: 14px;
 }
 
 .footer .card-content {
