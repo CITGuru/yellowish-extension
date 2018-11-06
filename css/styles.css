@@ -76,6 +76,8 @@ p.description {
 .yellowish-btn {
     background-color: #fdba00;
     color: #1e1e65;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .yellowish-btn:hover {
@@ -140,4 +142,35 @@ p.description {
 
 .mr-1 {
     margin-right: 10px!important;
+}
+
+.footer .yellow {
+    background: #ffd665!important;
+}
+
+.footer .purple {
+    background: #1e1e65!important;
+}
+ .form-add input {
+    border: 1px solid transparent!important;
+    background-color: white!important;
+    border-radius: 30px!important;
+    width: 182px!important;
+    height: 25px!important;
+    padding: 0px 12px!important;
+    font-size: 12px!important;
+    margin-bottom: 5px!important;
+}
+.form-add .description {
+    margin: 0px;
+}
+
+.btn-social.facebook {
+    background: #3b5998;
+    width: 100%;
+}
+
+.btn-social.google {
+    background: #ea4334;
+    width: 100%;
 }
