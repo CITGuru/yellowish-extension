@@ -11,6 +11,14 @@
 </head>
 <body class="grey">
 <div class="wrapper">
+<div class="menu-bar right"> 
+        <a class='dropdown-trigger ext-menu' href='#' data-target='menu'>my Wishlist <i class="material-icons color-purple bg-yellow">menu</i></a>
+    <!-- Dropdown Structure -->
+        <ul id='menu' class='dropdown-content bg-yellow'>
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+        </ul>
+    </div>
 <div class="header">
     <div class="row">
         <div class="col header-icon">
@@ -59,11 +67,14 @@
             <div class="price-input-wrapper d-inline mr-1">
                 <input class="extension-control" name="price-alert" type="number" placeholder="price alert" />
             </div>
+            <p class="right"><i class="material-icons" style="font-size: 35px;">sort</i></p>
+
         </div>
     </div>
 </div>
 </div>
 <script src="../../js/jquery/jquery.min.js"></script>
 <script src="../../materialize/js/materialize.min.js"></script>
+<script src="../../js/main.js"></script>
 </body>
 </html>

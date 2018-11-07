@@ -34,10 +34,12 @@ body.grey {
 .header .col.header-icon .card .card-content img {
     width:60px;
 }
-
+.menu-bar {
+    padding: 5px;
+}
 .product-name {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 0px;
 }
 
@@ -45,12 +47,13 @@ body.grey {
 .header .col.product {
     width: 239px;
     padding: 0px;
-    margin-top: 15px;
+    margin-top: -9px;
     padding-top: 7px;
+    padding-right: 10px;
 }
 
 p.description {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .color-purple {
@@ -60,6 +63,11 @@ p.description {
 .bg-purple {
     background-color: #1e1e65!important;
     color: #fdba00;
+}
+
+.bg-yellow {
+    color: #1e1e65;
+    background-color: #fdba00!important;
 }
 
 .header .row {
@@ -140,6 +148,10 @@ p.description {
     display: inline-block;
 }
 
+.d-block {
+    display: block;
+}
+
 .mr-1 {
     margin-right: 10px!important;
 }
@@ -155,7 +167,7 @@ p.description {
     border: 1px solid transparent!important;
     background-color: white!important;
     border-radius: 30px!important;
-    width: 182px!important;
+    width: 204px!important;
     height: 25px!important;
     padding: 0px 12px!important;
     font-size: 12px!important;
@@ -163,14 +175,40 @@ p.description {
 }
 .form-add .description {
     margin: 0px;
+
 }
 
+.form-group button
+{ 
+margin-top: -31px!important;
+height: 25px!important;
+line-height: 1!important;
+padding: 0px 6px!important;
+float: right!important;
+margin-right: 1px!important;
+}
+
+.btn-social {
+    height: 30px;
+    font-size: 12px!important;
+    text-transform: capitalize;
+    line-height: 1;
+}
 .btn-social.facebook {
     background: #3b5998;
     width: 100%;
+    color: white;
+    text-align: left;
 }
 
 .btn-social.google {
     background: #ea4334;
     width: 100%;
+    color: white;
+    text-align: left;
+
+}
+
+.dropdown-trigger.ext-menu i {
+    font-size: 14px;
 }
